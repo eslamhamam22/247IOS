@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wec-Tb-B6d">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="hKA-zr-lH4">
+            <objects>
+                <navigationController id="ke8-IB-mhY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="myaccount_nr_ic" selectedImage="myaccount_ac_ic" id="mJO-gs-wpy">
+                        <inset key="imageInsets" minX="0.0" minY="-3" maxX="0.0" maxY="3"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="nRa-y6-0UV">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.90980392160000001" green="0.2666666667" blue="0.31372549020000001" alpha="1" colorSpace="deviceRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BuG-fE-KrD" kind="relationship" relationship="rootViewController" id="x2f-Ot-Jy4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r0K-Mt-FV3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="342" y="-1055"/>
+        </scene>
+        <!--MyAccount-->
+        <scene sceneID="b7K-Xf-bbF">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MyAccount" id="BuG-fE-KrD" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="13Z-X2-8FJ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z9D-F7-7Y8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1102" y="-1056"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="UxC-T8-aOe">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Settings" id="gui-0X-7ZX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="kT6-QL-zVr"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ANk-ox-6gl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1023" y="-259"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="W8J-lo-o29">
+            <objects>
+                <navigationController id="SSH-pp-dwW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="settings_nr_ic" selectedImage="settings_ac_ic" id="3X9-OC-CPZ">
+                        <inset key="imageInsets" minX="0.0" minY="-3" maxX="0.0" maxY="3"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="ffe-xS-xId">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.90980392160000001" green="0.2666666667" blue="0.31372549020000001" alpha="1" colorSpace="deviceRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="gui-0X-7ZX" kind="relationship" relationship="rootViewController" id="i4b-gk-P7p"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tjM-u1-czt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="342" y="-258"/>
+        </scene>
+        <!--User Tab Bar-->
+        <scene sceneID="Wf1-O6-tGG">
+            <objects>
+                <tabBarController id="Wec-Tb-B6d" customClass="UserTabBar" customModule="TwentyfourSeven" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3My-ME-Lyf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.21176470589999999" green="0.42745098040000001" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.21176470589999999" green="0.42745098040000001" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="RDm-ur-bg3" kind="relationship" relationship="viewControllers" id="cKt-OG-zg8"/>
+                        <segue destination="Nh2-zu-Oo4" kind="relationship" relationship="viewControllers" id="vzU-xF-Chp"/>
+                        <segue destination="o02-l7-q0P" kind="relationship" relationship="viewControllers" id="Tkb-OM-WlD"/>
+                        <segue destination="ke8-IB-mhY" kind="relationship" relationship="viewControllers" id="35Q-XX-bVi"/>
+                        <segue destination="SSH-pp-dwW" kind="relationship" relationship="viewControllers" id="I3A-OK-r9q"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FHQ-Kn-ujk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1687" y="-259"/>
+        </scene>
+        <!--MyOrders-->
+        <scene sceneID="xQ0-8r-Z6h">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MyOrders" id="qkN-7H-FOW" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="9W4-KF-RYW"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tHN-hA-alw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1406" y="-1056"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zWV-wR-1Xz">
+            <objects>
+                <navigationController id="Nh2-zu-Oo4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="orders_nr_ic" selectedImage="orders_ac_ic" id="nuP-rF-5A9">
+                        <inset key="imageInsets" minX="0.0" minY="-3" maxX="0.0" maxY="3"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="sxg-K2-ukd">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.90980392160000001" green="0.2666666667" blue="0.31372549020000001" alpha="1" colorSpace="deviceRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="qkN-7H-FOW" kind="relationship" relationship="rootViewController" id="yZj-cJ-zfX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Yh-DV-dyg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-626" y="-1054"/>
+        </scene>
+        <!--StoresCategory-->
+        <scene sceneID="bi8-zV-SV2">
+            <objects>
+                <viewControllerPlaceholder storyboardName="StoresCategory" id="71m-yl-txc" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="wsN-Rm-uZL"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="44w-id-JwQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1349" y="599"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NUB-ru-aaM">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="o02-l7-q0P" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="stores_nr_ic" selectedImage="stores_ac_ic" id="Lcb-MO-loC">
+                        <inset key="imageInsets" minX="0.0" minY="-3" maxX="0.0" maxY="3"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="Zic-lL-Ikk">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.90980392160000001" green="0.2666666667" blue="0.31372549020000001" alpha="1" colorSpace="deviceRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="71m-yl-txc" kind="relationship" relationship="rootViewController" id="o68-DM-Tbp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FKC-1E-fuZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-626" y="558"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ly0-gd-Utq">
+            <objects>
+                <navigationController id="RDm-ur-bg3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="notifcation_nr_ic" selectedImage="notifcation_nr_ic-1" id="tjG-Ml-cHw">
+                        <inset key="imageInsets" minX="0.0" minY="-3" maxX="0.0" maxY="3"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="m1l-ab-Nq2">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.90980392160000001" green="0.2666666667" blue="0.31372549020000001" alpha="1" colorSpace="deviceRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="F45-7g-CdZ" kind="relationship" relationship="rootViewController" id="HnP-mU-3eL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z0b-w9-3AI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="342" y="559"/>
+        </scene>
+        <!--NotificationsList-->
+        <scene sceneID="OFX-Pz-aUk">
+            <objects>
+                <viewControllerPlaceholder storyboardName="NotificationsList" id="F45-7g-CdZ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="OcY-k5-Xw7"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LOT-cS-5Oc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1050" y="557"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="myaccount_ac_ic" width="24" height="27"/>
+        <image name="myaccount_nr_ic" width="24" height="27"/>
+        <image name="notifcation_nr_ic" width="33" height="33"/>
+        <image name="notifcation_nr_ic-1" width="33" height="33"/>
+        <image name="orders_ac_ic" width="28" height="28"/>
+        <image name="orders_nr_ic" width="28" height="28"/>
+        <image name="settings_ac_ic" width="27" height="27"/>
+        <image name="settings_nr_ic" width="27" height="27"/>
+        <image name="stores_ac_ic" width="29" height="27"/>
+        <image name="stores_nr_ic" width="29" height="27"/>
+    </resources>
+</document>

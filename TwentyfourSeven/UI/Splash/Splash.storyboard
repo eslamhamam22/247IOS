@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mMe-xJ-npz">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SplashVC-->
+        <scene sceneID="6kK-zK-BE1">
+            <objects>
+                <viewController id="mMe-xJ-npz" customClass="SplashVC" customModule="TwentyfourSeven" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yBO-9G-Qdk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8B4-A7-KFL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90980392160000001" green="0.2666666667" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8B4-A7-KFL" firstAttribute="leading" secondItem="5eK-cs-b6f" secondAttribute="leading" id="BVg-M0-cUR"/>
+                            <constraint firstItem="8B4-A7-KFL" firstAttribute="trailing" secondItem="5eK-cs-b6f" secondAttribute="trailing" id="i9D-Bg-VND"/>
+                            <constraint firstAttribute="bottom" secondItem="8B4-A7-KFL" secondAttribute="bottom" id="ngN-Y3-c9O"/>
+                            <constraint firstItem="8B4-A7-KFL" firstAttribute="top" secondItem="yBO-9G-Qdk" secondAttribute="top" id="obw-hW-hNy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5eK-cs-b6f"/>
+                    </view>
+                    <connections>
+                        <segue destination="2tq-rl-0f1" kind="presentation" identifier="toLogin" animates="NO" id="hdc-8w-5n4"/>
+                        <segue destination="2Ao-up-Jot" kind="presentation" identifier="toEditProfile" animates="NO" id="bDp-vb-qAu"/>
+                        <segue destination="aU0-jn-JFm" kind="presentation" identifier="toTabs" animates="NO" id="jwl-np-rjm"/>
+                        <segue destination="uhe-O9-8mJ" kind="presentation" identifier="toHowToUse" animates="NO" id="y0r-cN-KP8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kiv-GC-auf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="327" y="65"/>
+        </scene>
+        <!--EditProfile-->
+        <scene sceneID="0EC-Zl-EUZ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="EditProfile" id="2Ao-up-Jot" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AIe-7D-oLf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="909" y="-12"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="k0K-vF-v3z">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Login" id="2tq-rl-0f1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mwT-91-YqD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="857" y="113"/>
+        </scene>
+        <!--UserTabBar-->
+        <scene sceneID="CYI-jR-Ob8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="UserTabBar" id="aU0-jn-JFm" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3uG-5r-cyR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="836" y="168"/>
+        </scene>
+        <!--HowToUse-->
+        <scene sceneID="jx6-sj-07a">
+            <objects>
+                <viewControllerPlaceholder storyboardName="HowToUse" id="uhe-O9-8mJ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FgH-7M-woT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="975" y="220"/>
+        </scene>
+    </scenes>
+</document>

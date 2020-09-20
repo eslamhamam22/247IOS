@@ -1,0 +1,380 @@
+/* 
+  Localizable.strings
+  TwentyfourSeven
+
+  Created by Salma  on 12/4/18.
+  Copyright © 2018 Objects. All rights reserved.
+*/
+
+connectionFailed = "خطأ فى الإتصال, برجاء التأكد من اللإتصال بالشبكة وإعادة المحاولة";
+general_error = "حدث خطأ ما برجاء إعادة المحاولة";
+suspended = "الحساب معطل";
+no_data = "لا يوجد بيانات";
+
+// login
+loginTitle = "سجل دخول إلى التطبيق بواسطة";
+loginMobile = "تسجيل الدخول بواسطة الجوال";
+loginFB = "تسجيل باستخدام فيسبوك";
+loginGoogle = "تسجيل باستخدام جوجل";
+termsTitle = "استخدام التطبيق يعنى موافقتك على";
+termsAndConditions = " الأحكام و الشروط";
+skipLogin = "تخطي التسجيل";
+
+// register with mobile
+registerViaMobile = "التسجيل بواسطة رقم الجوال";
+phoneNo = "رقم الجوال";
+verify = "تأكيد";
+codeSent = "تم ارسال رمز التفعيل بنجاح";
+codeError = "حدثت مشكلة اعد المحاولة ";
+emptyPhoneNumber = "من فضلك ادخل رقم الجوال";
+phoneNoError = "برجاء أدخال رقم جوال صحيح ";
+permissionDenied = "برجاء السماح للتطبيق بالحصول على موقعك الحالي من إعدادات الهاتف";
+changePhone = "تغيير رقم الجوال";
+
+// verify mobile
+verifyMobile = "تاكيد رقم الجوال";
+enterDigits = "برجاء ادخال رمز التحقق";
+submit = "تفعيل";
+resendCode = "اعادة ارسال الرمز";
+invalidCode = "رمز غير صحيح، برجاء ادخال رمز صحيح";
+
+// terms and condition
+termsConditions = "Terms & Conditions";
+
+// settings
+language = "اللغه";
+english = "English ";
+arabic = "العربية";
+settings = "الإعدادات";
+changeLanguage = "";
+PrivacyPolicy = "سياسة الخصوصية";
+aboutUs = "نبذه عن التطبيق";
+contactUs = "اتصل بنا";
+howToUse = "كيف يعمل التطبيق";
+rateApp = "قيم التطبيق";
+shareApp =  "شارك بنشر التطبيق";
+shareAppURL = "شارك بنشر التطبيق";
+
+// my account
+myAccount = "حسابي";
+myWallet = "محفظتي";
+noOfOrders = "No. of Order";
+carDetailsTitle = "معلومات المركبة";
+myAddresses = "قائمة العناوين";
+myComplaints = "الشكاوي";
+myReviews = "My Reviews";
+logout = "تسجيل خروج";
+becomedriverFirst = "اصبح مندوب";
+becomedriverSecond = "";
+user_rate = "التقييم";
+delegate_rate = "تقييم التوصيل";
+my_reviews = "تقييماتي";
+
+// edit profile
+accountDetails = "تفاصيل الحساب";
+fullName = "الإسم كامل";
+phoneNoEdit = "رقم الهاتف";
+yearOfBirth = "تاريخ الميلاد";
+gender = "الجنس";
+city = "المدينة";
+update = "تعديل";
+loadImage = "إضافة صوره شخصية";
+fullnameError = "برجاء أدخال الاسم كامل ";
+fullnameValidation =  "الاسم يقبل حروف و ارقام فقط";
+camera = "كاميرا";
+gallery = "الأستوديو ";
+cancel = "اغلاق";
+choosePhoto = "اختيار الصورة";
+profileUpdatedSuccess = "profile updated successfully";
+imageSizeError = "الحد الاقصى لحجم الصورة 20MB";
+imageTypeError = "ادخل صورة في صيغة png, jpg, jpeg";
+registerSubmit = "تسجيل";
+editChooseDate = "اختر تاريخ";
+editCancel = "إلغاء";
+editDone = "تم";
+
+//user tab bar
+accountTab = "حسابي";
+notificationsTab = "إشعارات";
+ordersTab = "طلباتي";
+storesTab = "المتاجر";
+settingsTab = "الإعدادات";
+
+//contact us
+contactUsInfo = "بيانات الإتصال";
+contactUsFollow = "تابعونا على";
+
+//my addresses
+addNewAddress = "إضافة عنوان";
+myAddresses = "قائمة العناوين";
+deleteAddressMsg = "سيتم الغاء هذا العنوان من قائمة العناوين الخاصة بك، هل انت متأكد؟";
+yes = "نعم";
+no = "لا";
+addressNamePlaceholder = "اسم العنوان";
+location = "حدد الموقع";
+skip = "تخطي";
+searchLoaction_placeholder = "إدخل الموقع";
+move_address_pin = "اترك لتحديد هذا الموقع كعنوان";
+release_address_pin = "سيتم اضافة هذا الموقع  لقائمة العناوين";
+
+// become delegate
+submitRequest = "تقديم الطلب";
+requestAlreadySent = "لقد تم تقديم طلبك لتصبح مندوبًا مسبقا، سيتم مراجعه البيانات و الإتصال بك قريبا";
+CarDetails = "معلومات المركبة";
+uploadLicense = "صورة رخصة القيادة";
+uploadNational = "صورة بطاقة الهوية";
+uploadCarFront = "صورة امامية للمركبة";
+uploadCarBack = "صورة خلفية للمركبة";
+carModel = "تفاصيل المركبة (النوع، الموديل، ...الخ)";
+delegateRequestSentSuccess = "تم تقديم طلبك، سيتم التواصل معك قريباً";
+becomeDelegateTitle = "اصبح مندوب";
+
+// car Details
+uploadLicenseDetails = "رخصة القيادة";
+uploadNationalDetails = "بطاقة الهوية";
+uploadCarFrontDetails = "صورة امامية للسيارة";
+uploadCarBackDetails = "صورة خلفية للسيارة";
+
+//notifications
+notifications_title = "السماح بالتنبيهات";
+notifications_screen_title = "التنبيهات";
+
+// stores
+search = "بحث";
+request_from_location = "ارسال واستلام طرد";
+
+NearbyStores = "بالقرب";
+moreStores = "المزيد";
+activeStores = "متاجر متاحه";
+noActiveStores = "لا يوجد متاجر متاحة الان";
+noAllStores =  "لا يوجد متاجر";
+allStores = "جميع المتاجر";
+Km = "كم";
+M = "م";
+openNow = "مفتوح الآن";
+closed = "مغلق";
+allNearbyStores = "المتاجر القريبة";
+requestFromStore = "اطلب من المتجر";
+workingHours = "مواعيد العمل";
+showAll = "اعرض الكل";
+searchByName_placeholder = "بحث باسم المتجر";
+searchByAddress_placeholder = "بالقرب";
+
+// request from store
+destination = "موقع التسليم";
+pickUp_point = "موقع الاستلام";
+confirm_pickup = "تأكيد مكان الاستلام";
+
+fromStore = "من";
+toStore = "الى";
+WhereTo = "إلى أين";
+pickupFrom = "استلام من؟";
+confirm_destination = "تأكيد مكان التوصيل";
+what_do_you_need = "ماذا تحتاج؟";
+order_description = "وصف الطلب";
+order_description_placeholder = "اكتب تفاصيل طلبك";
+request_store_title = "طلب من المتجر";
+order_added = "تم تقديم طلبك بنجاح";
+add_from_addresses = "اختر من قائمة العناوين";
+pickup = "Pickup";
+upload_image = "إضافة صورة";
+max_images = "يمكنك اضافة حتى 10 صور";
+record_audio = "تسجيل صوتي";
+Save = "Save";
+prayerNote = "ملاحظة: عند الطلب خلال اوقات الصلاة نأسف لإبلاغكم بأن طلبكم قد يستغرق وقت اضافي 30 دقيقة";
+cameraAccessDenied = "قم بالسماح لنا بالوصول إلى الكاميرا";
+photosAccessDenied = "قم بالسماح لنا بالوصول إلى الصور";
+
+move_pickup = "اترك لتحديد نقطة الاستلام";
+release_pickip = "سيتم الاستلام من هذا الموقع";
+move_destination = "اترك لتحديد نقطة التسليم";
+release_destination = "سيتم التسليم إلى هذا الموقع";
+delivery_duration = "وقت التوصيل";
+
+hr = "س";
+hr1 = "ساعة";
+hr2 = "ساعتان";
+hr3 = "3 ساعات";
+
+googleMap = "خرائط جوجل";
+appleMap = "خرائط أبل";
+open_in_maps = "فتح في الخريطة";
+
+// add coupon
+add_coupon_title = "إضافة رمز الخصم";
+add_coupon = "اضافة الرمز";
+coupon_placeholder = "اضف الرمز";
+coupon_error = "يجب اضافه الرمز";
+
+// no network
+no_network_title = "لا يوجد اتصال";
+no_network_desc = "تحقق من شبكتك وقم بإعادة تحميل الصفحة";
+no_network_reload = "إعادة تحميل الصفحة";
+
+// no location
+no_location_title = "تفعيل تحديد المواقع";
+no_location_desc = "برجاء السماح للتطبيق بالحصول على موقعك الحالي";
+no_location_activate = "تفعيل تحديد المواقع";
+
+
+//my orders
+my_orders = "طلباتي";
+delivery_requests = "طلبات التوصيل";
+current_orders = "طلبات حالية";
+historyOrders = "طلبات سابقة";
+requests_availability = "متاح لاستلام طلبات التوصيل";
+emptyCurrentOrders= "لا توجد طلبات حالية";
+emptyPastOrders = "لا توجد طلبات سابقة";
+newStatus = "جديد";
+pendingStatus = "في الإنتظار";
+assignedStatus = "تم التعيين";
+inProgressStatus = "في الطريق للاستلام";
+beignDeliveredStatus = "جاري التوصيل";
+DeliveredStatus = "تم التسليم";
+CancelledStatus = "تم الغاءه";
+my_order_items = "تفاصيل طلبي";
+waiting_for_delegates = "في انتظار العروض";
+days = "أيام";
+day = "يوم";
+my_order = "طلبي";
+accept_offer = "قبول";
+reject_offer = "رفض";
+offer_distance = "يبعد";
+offer_time = "الوقت";
+offer_price = "التوصيل";
+offers = "العروض";
+Delivery_Offers = "عروض التوصيل";
+no_delegates = "لم يتم العثور على مندوبين ";
+no_more_delegates = "لم يتم العثور على مندوبين جدد";
+no_deleagte_refresh = "بحث مرة اخرى";
+add_rate = "إضافة تقييم";
+
+
+//set offer
+newOfferTitle = "هل انت مستعد لتوصيل الطلب؟";
+set_Offer = "اضافة عرض توصيل";
+Shipping_cost = "تكلفة التوصيل";
+offer_Comission = "عمولة";
+VAT = "ضريبة القيمة المضافة";
+free_commission = "مجاني";
+free_commission_msg = "مبروك! تم منحك رحلة مجانية بدون عمولة";
+willReceive = "إجمالي ربحك";
+maxOfferError = "تكلفة التوصيل يجب ألا تزيد عن";
+minOfferError = "تكلفة التوصيل يجب ألا تقل عن ";
+sar = "ر.س";
+submitOffer = "تقديم عرض";
+totalOffer = "إجمالي المبلغ";
+newOrder = "طلب جديد";
+cancel_offer = "إلغاء العرض";
+cancel_offer_alert = "هل أنت متأكد من رغبتك بسحب عرض التوصيل؟";
+accept_offer_alert = "أنت توافق على أن يتم تسليم طلبك مقابل";
+reject_offer_alert = "سيتم رفض عرض التوصيل الخاص بهذا المندوب،هل توافق؟";
+item_price = "سعر السلعة";
+submit_price = "تأكيد السعر";
+added_to_wallet = "الباقي";
+
+//order details
+cancelOrderAlert = "هل تود تأكيد إلغاء طلبك ؟";
+cancelDelegateAlert = "هل تود الانسحاب ، و الغاء طلب التوصيل للعميل ؟";
+
+cancel_order = "الغاء الطلب";
+submitComplain = "تقديم شكوى";
+delegate_order = "طلب";
+reasonValidation = "برجاء اختيار سبب الغاء الطلب";
+reasonPlaceHolder = "يرجى إدخال سبب الغاء الطلب";
+pickItemTitle = "اضافة سعر السلعة";
+reorder = "اعادة الطلب";
+reorder_msg = "سيتم إنشاء طلب جديد مطابق لتفاصيل هذا الطلب";
+ignore_order_alert = "سيتم رفض الطلب و لن تتمكن من اضافة عرض توصيل";
+cancellation_reason = "سبب الغاء الطلب:";
+search_timeout = "تم تنبيه عدد من المندوبين حولك ولكن لم يتم الحصول علي عرض توصيل بعد";
+discount = "الخصم";
+call = "اتصل";
+
+// delegate actions on order
+start_ride = "ابدأ الرحلة";
+pick_item = "استلم الغرض";
+delivered_action = "تم التسليم";
+
+// deliver order
+deliver_order = "تأكيد التسليم";
+deliver_order_note = "سيتم انهاء الطلب و تأكيد التسليم بعد استلام المبلغ الاتى من العميل:";
+not_yet = "ليس بعد";
+
+//rate
+review_driver_title = "تقييم المندوب";
+review_customer_title = "تقييم العميل";
+rate_placeholder = "كيف تقييم هذه التجربه؟";
+review_driver = "قم بتقييم المندوب";
+review_customer = "قم بتقييم العميل";
+submit_rate = "إرسال التقييم";
+add_rate_error = "you must select rate";
+
+//chat
+chatPlaceholder = "اكتب رسالتك";
+trackOrder = "تتبع";
+send = "ارسل";
+
+blockedAreaToast = "نأسف هذه منطقه غير مدعومة";
+
+//Wallet
+Transactions_history = "العمليات السابقه";
+minus_balance = "رصيدك ناقص";
+addMoneyDesc = " تحتاج إلى إضافة نقود إلى محفظتك أو التحويل إلى حساب الشركة المصرفي";
+addMoney = "إضافة نقود";
+My_Balance = "رصيد الحساب";
+addMoneyAmout = "المبلغ المطلوب اضافته";
+paymentSelection = "اختر طريقة دفع";
+Cerdit_Card = "بطاقة ائتمان";
+Sadad = "سداد";
+Bank_Transfer = "تحويل بنكي";
+cashOndelivery = "الدفع عند الاستلام";
+changes = "باقي حساب طلب";
+appComission = "عموله التطبيق علي الطلب";
+appVat = "ضريبه القيمه المضافة للطلب";
+app_manual= "خدمه العملاء";
+no_transactions = "لا يوجد عمليات";
+totalEarning = "إجمالي أرباحي";
+
+//bank transfer
+bankTransferInfo = "يجب أن تقوم بالتحويل البنكي لأحد الحسابات التالية ثم إرسال طلب مرفق به تفاصيل العملية وورقه التحويل البنكي";
+Submit_Transaction = "إرسال طلب التحويل";
+account_no = "رقم الحساب";
+
+//bank request
+paymentMethod = "Transaction done through";
+Submit_transaction = "إرسال طلب التحويل";
+Bank_Submition = "تقديم طلب التحويل البنكي";
+Transferred_to = "تحويل إلى";
+Choose_Bank = "اختر بنك";
+Transfer_document = "وثيقة التحويل";
+Attach_document = "ارفق صورة وثيقة التحويل البنكي";
+amount = "المبلغ";
+transfer_success = "تم إرسال الطلب للمراجعة، وسيتم إشعاركم قريبا";
+maxWallet = "لقد تخطيت الحد الأقصى المسموح به لرصيدك، يرجى سداد المبلغ المطلوب بمحفظتك حتى تتمكن من استقبال طلبات جديدة";
+maxWalletTitle = "لقد تخطيت الحد الأقصى المسموح به لرصيدك";
+maxWalletContent = "برجاء إيداع المبلغ  المطلوب حتى يمكنك  استقبال طلبات جديدة";
+maxoffer = "لقد تخطيت الحد الأقصى المسموح به لرصيدك، يرجى سداد المبلغ المطلوب بمحفظتك حتى تتمكن من إضافة عروض جديدة";
+bank_submit = "إرسال";
+
+//complaints
+complaint_name = "يرجى إدخال موضوع الشكوى";
+complaint_name_title = "موضوع الشكوى";
+complaint_desc = "يرجى إدخال تفاصيل الشكوى هنا";
+complaint_desc_title = "تفاصيل المشكله";
+complaint_success = "تم تقديم الشكوى، سيتم التحقق و التواصل معك قريبا";
+complaint_submit = "تقديم الشكوى";
+complaint_order_no = "شكوى خاصه بالطلب رقم";
+complaint_title = "تقديم شكوى";
+complaint_inprogress = "جاري التحقق";
+complaint_resolved = "تم الحل";
+
+
+//PROFILE
+Delegate_Profile = "بيانات المندوب";
+Customer_Profile = "بيانات العميل";
+
+//reviews
+no_reviews = "لا يوجد تقييمات";
+orders_no = "عدد الطلبات";
+deliveries_no = "عدد التوصيلات";

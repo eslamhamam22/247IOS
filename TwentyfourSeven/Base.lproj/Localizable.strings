@@ -1,0 +1,383 @@
+/* 
+  Localizable.strings
+  TwentyfourSeven
+
+  Created by Salma  on 12/4/18.
+  Copyright © 2018 Objects. All rights reserved.
+*/
+
+connectionFailed = "Connection error, please check your connection and try again";
+general_error = "Something went wrong, please try again later";
+suspended = "Account is disabled";
+no_data = "No Data";
+
+// login
+loginTitle = "Register \n Or \n Login to App via";
+loginMobile = "Login via mobile number";
+loginFB = "Login via Facebook";
+loginGoogle = "Login via Google";
+termsTitle = "By using the app you agree to";
+termsAndConditions = "Terms & Conditions";
+skipLogin = "Skip Login";
+
+// register with mobile
+registerViaMobile = "Register Via Mobile";
+phoneNo = "Mobile number";
+verify = "Verify";
+codeSent = "verification code is sent successfully";
+codeError = "an Issue occured, Try again";
+emptyPhoneNumber = "Please enter your mobile number";
+phoneNoError = "please enter a valid mobile number";
+permissionDenied = "please turn on location service from mobile settings";
+changePhone = "Change mobile Number";
+
+// verify mobile
+verifyMobile = "Verify Mobile number";
+enterDigits = "Please enter activation code";
+submit = "Submit";
+resendCode = "Resend code";
+invalidCode = "Invalid code, Please enter the correct code";
+
+// terms and condition
+termsConditions = "Terms & Conditions";
+
+// settings
+language = "Language";
+english = "English ";
+arabic = "العربية";
+settings = "Settings";
+changeLanguage = "Change language";
+PrivacyPolicy = "Privacy Policy";
+aboutUs = "About Us";
+contactUs = "Contact Us";
+howToUse = "How to Use";
+rateApp = "Rate The App";
+shareApp = "Share the App";
+shareAppURL = "Share the app";
+
+// my account
+myAccount = "My Account";
+myWallet = "My Wallet";
+noOfOrders = "No. of Order";
+carDetailsTitle = "Vehicle details";
+myAddresses = "My Addresses";
+myComplaints = "My Complaints";
+myReviews = "My Reviews";
+logout = "Logout";
+becomedriverFirst = "How to become a";
+becomedriverSecond = "delegate";
+user_rate = "Rating";
+delegate_rate = "Delivery Rating";
+my_reviews = "My Reviews";
+
+// edit profile
+accountDetails = "Account Details";
+fullName = "Full name";
+phoneNo = "Mobile Number";
+yearOfBirth = "Birth date";
+gender = "Gender";
+city = "City";
+update = "Edit";
+loadImage = "upload profile image";
+fullnameError = "please enter your full name";
+fullnameValidation = "full name allows letters and numbers only (i.e. a-z, A-Z, 0-9)";
+camera = "Camera";
+gallery = "Gallery";
+cancel = "Cancel";
+choosePhoto = "Select photo";
+profileUpdatedSuccess = "profile updated successfully";
+imageTypeError = "Please upload only png, jpg, jpeg image";
+imageSizeError = "Max Size is 20MB";
+registerSubmit = "sign in";
+editChooseDate = "Choose Date";
+editCancel = "Cancel";
+editDone = "Done";
+
+// user tab bar
+accountTab = "Account";
+notificationsTab = "Notifications";
+ordersTab = "Orders";
+storesTab = "Stores";
+settingsTab = "Settings";
+
+// contact us
+contactUsInfo = "Contact info";
+contactUsFollow = "Follow us on";
+
+// my addresses
+myAddresses = "My Addresses";
+addNewAddress = "Add Address";
+deleteAddressMsg = "This addres will be remove from your addres list, are you sure?";
+yes = "Yes";
+no = "No";
+addressNamePlaceholder = "Address name";
+location = "choose location";
+skip = "Skip";
+searchLoaction_placeholder = "Choose location";
+move_address_pin = "release to set the address";
+release_address_pin = "it will be saved in the address list";
+
+// become delegate
+submitRequest = "Submit Request";
+requestAlreadySent = "you have already submit your request, we will contact you soon";
+CarDetails = "Vehicle details";
+uploadLicense = "uploaded driver license image";
+uploadNational = "uploaded national ID image";
+uploadCarFront = "vehicle front image";
+uploadCarBack = "vehicle back image";
+carModel = "vehicle info (ex, brand, model, year)";
+delegateRequestSentSuccess = "Your request is submitted, we will contact you soon";
+becomeDelegateTitle = "Become A Delegate";
+
+// car Details
+uploadLicenseDetails = "Driver license";
+uploadNationalDetails = "National ID";
+uploadCarFrontDetails = "Car front image";
+uploadCarBackDetails = "Car back image";
+
+//notifications
+notifications_title = "Turn on notifications";
+notifications_screen_title = "Notifications";
+
+
+// stores
+search = "Search";
+NearbyStores = "Nearby";
+moreStores = "More";
+activeStores = "Active Stores";
+noActiveStores = "No Active stores now";
+noAllStores = "No Stores";
+request_from_location = "Request From pickup location";
+allStores = "All Stores";
+Km = "Km";
+M = "M";
+openNow = "Open Now";
+closed = "Closed";
+allNearbyStores = "All stores nearby";
+requestFromStore = "Request From Store";
+workingHours = "Working Hours";
+showAll = "Show All";
+searchByName_placeholder = "Search by store name";
+searchByAddress_placeholder = "Nearby";
+
+// request from store
+destination = "Delivery location";
+pickUp_point = "Pickup location";
+confirm_pickup = "Confirm pickup location";
+fromStore = "From";
+toStore = "To";
+WhereTo = "Where to";
+pickupFrom = "Pickup From";
+confirm_destination = "Confirm delivery location";
+order_description = "Order Description";
+what_do_you_need = "What do you need?";
+order_description_placeholder = "Write your order details";
+request_store_title = "Request from Store";
+order_added = "Your order is submitted successfully";
+add_from_addresses = "Select from my address list";
+pickup = "Pickup";
+upload_image = "Upload image";
+max_images = "upload up to 10 images";
+record_audio = "voice record";
+Save = "Save";
+Cancel = "Cancel";
+prayerNote = "Note; if you are ordering during prayer time we are sorry to inform you that your order will take an extra 30 min";
+cameraAccessDenied = "Camera access is denied";
+photosAccessDenied = "Photos access is denied";
+move_pickup = "release to set pickup location";
+release_pickip = "will pickup from here";
+move_destination = "release to set delivery destination";
+release_destination = "Delivery Location";
+delivery_duration = "Delivery Duration";
+
+hr = "hr";
+hr1 = "1 hour";
+hr2 = "2 hours";
+hr3 = "3 hours";
+
+googleMap = "Google Maps";
+appleMap = "Apple Maps";
+open_in_maps = "Open In Map";
+
+// add coupon
+add_coupon_title = "Add Coupon";
+add_coupon = "Add Coupon Code";
+coupon_placeholder = "Enter coupon code";
+coupon_error = "Please Enter coupon code";
+
+// no network
+no_network_title = "No Connection";
+no_network_desc = "Check your network and reload page";
+no_network_reload = "Reload page";
+
+// no location
+no_location_title = "Activate GPS";
+no_location_desc = "Please allow the app to get your current location ";
+no_location_activate = "Activate GPS";
+
+
+//my orders
+my_orders = "My Orders";
+delivery_requests = "Delivery Orders";
+current_orders = "Current Orders";
+historyOrders = "My history";
+requests_availability = "Available for delivery requests";
+emptyCurrentOrders= "No current orders";
+emptyPastOrders = "No orders History";
+newStatus = "NEW";
+pendingStatus = "PENDING";
+assignedStatus = "ASSIGNED";
+inProgressStatus = "IN PROGRESS";
+beignDeliveredStatus = "ITEM PICKED";
+DeliveredStatus = "DELIVERED";
+CancelledStatus = "CANCELLED";
+my_order_items = "My order details";
+waiting_for_delegates = "Waiting for offers";
+days = "Days";
+day = "Day";
+my_order = "My Order";
+offers = "Offers";
+Delivery_Offers = "Delivery Offers";
+no_delegates = "No Available Delegates!..";
+no_deleagte_refresh = "SEARCH AGAIN";
+add_rate = "Add Rate";
+no_more_delegates = "We found no more delegates around you";
+
+//set offer
+newOfferTitle = "Are you ready to deliver?";
+set_Offer = "Set Offer";
+Shipping_cost = "Delivery Cost";
+offer_Comission = "Commission";
+free_commission = "Free";
+free_commission_msg = "Congrats! you're granted a Free Commission ride";
+VAT = "VAT";
+willReceive = "Total Earnings";
+maxOfferError = "delivery cost can't exceed";
+minOfferError = "delivery cost can't be less than";
+sar = "sar";
+submitOffer = "Submit Offer";
+totalOffer = "Total";
+newOrder = "New order";
+cancel_offer = "Cancel Offer";
+accept_offer = "Accept";
+reject_offer = "Reject";
+offer_distance = "Away";
+offer_time = "Time";
+offer_price = "Delivery";
+cancel_offer_alert = "Are you sure you want to withdraw your delivery offer?";
+accept_offer_alert = "You are accepting the order to be delivered with";
+reject_offer_alert = "you are going to reject this offer, note you won't be able to undo this?";
+item_price = "Item Price";
+submit_price = "Submit Price";
+added_to_wallet = "Changes";
+
+//order details
+cancelOrderAlert = "Are you sure you want to cancel this order?";
+cancelDelegateAlert = "Are you sure you want to withdraw from this ride?";
+
+cancel_order = "Cancel Order";
+submitComplain = "Submit Complaint";
+delegate_order = "Order";
+reasonValidation = "Please select cancellation reason";
+reasonPlaceHolder = "Select cancellation reason";
+pickItemTitle = "Set Item Cost";
+reorder = "Reorder";
+reorder_msg = "you are going to recreate this order with same details";
+ignore_order_alert = "By rejecting the order, it won't be available and you won't be able to submit offer on this order anymore";
+cancellation_reason = "Cancellation Reason:";
+search_timeout = "We notified a number of delegates but no offers received";
+discount = "Discount";
+call = "Call";
+
+// delegate actions on order
+start_ride = "Start Ride";
+pick_item = "Pick Item";
+delivered_action = "Delivered";
+
+// deliver order
+deliver_order = "Confirm Delivery";
+deliver_order_note = "You are ending the ride, as you've delivered this order and about to receive the following from customer:";
+not_yet = "Not yet";
+
+//rate
+review_driver_title = "Delegate Evaluation";
+review_customer_title = "Customer Evaluation";
+rate_placeholder = "How do you rate this experience?";
+review_driver = "Rate Your Delegate";
+review_customer = "Rate Your Customer";
+submit_rate = "Submit Rating";
+add_rate_error = "you must select rate";
+
+
+//chat
+chatPlaceholder = "Type a message";
+trackOrder = "Track";
+send = "SEND";
+
+blockedAreaToast = "sorry, we don't operate in this area";
+
+//Wallet
+Transactions_history = "Transactions history";
+paymentMethod = "Transaction done through";
+minus_balance = "You have a minus balance limt";
+addMoneyDesc = "You need to add money to your wallet or transfer to company bank account";
+addMoney = "Add Money";
+My_Balance = "Account Balance";
+addMoneyAmout = "Amount needs to be added";
+paymentSelection = "Select Payment method";
+Cerdit_Card = "Cerdit Card";
+Sadad = "Sadad";
+Bank_Transfer = "Bank Transfer";
+cashOndelivery = "Cash On delivery";
+bankTransfer = "Bank Transfer ";
+creditCard = "Credit Card ";
+sadad = "Sadad";
+changes = "Changes";
+appComission = "App Commission";
+appVat = "Order Tax";
+app_manual= "Customer Serivce";
+totalEarning = "Total Earnings";
+no_transactions = "No Transactions";
+
+//bank transfer
+bankTransferInfo = "you have to make a bank transaction and deposit the money to one of the following accounts, then submit your request by attaching the details paper and wire transfer here:";
+Submit_Transaction = "Submit Transaction";
+account_no = "Account no ";
+
+
+//bank request
+Submit_transaction = "Submit Transaction";
+Bank_Submition = "Bank Transfer Request";
+Transferred_to = "Transferred to";
+Choose_Bank = "Choose Bank";
+Transfer_document = "Transfer document";
+Attach_document = "upload bank transaction receipt";
+amount = "Amount";
+transfer_success = "Request is sent for verification, will notify you soon with updates";
+maxWallet = "You've reached your wallet maximum limit , you need to pay the amount requierd in your wallet to start receiving new orders";
+maxWalletTitle = "You've reached your wallet maximum";
+maxWalletContent = "You need to pay the minus amount in your wallet first before receiving new orders";
+maxoffer = "You've reached your wallet maximum limit, you need to pay the amount requierd in your wallet to start submitting new offers";
+bank_submit = "Submit";
+
+
+//complaints
+complaint_name = "Enter Complaint Title";
+complaint_name_title = "Complaint Subject";
+complaint_desc = "Enter Complaint description here..";
+complaint_desc_title = "Complaint description";
+complaint_success = "complaint submitted successfully, we will review and contact you soon";
+complaint_submit = "Submit Complaint";
+complaint_order_no = "Complaint for order No.";
+complaint_title = "Submit Complaint";
+complaint_inprogress = "IN PROGRESS";
+complaint_resolved = "RESOLVED";
+
+//PROFILE
+Delegate_Profile = "Delegate Profile";
+Customer_Profile = "Customer Profile";
+
+//reviews
+no_reviews = "No Reviews";
+orders_no = "No. of orders";
+deliveries_no = "No of deliveries";

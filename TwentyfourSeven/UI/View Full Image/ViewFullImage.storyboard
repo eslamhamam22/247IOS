@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ajT-Fi-EPu">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Full ImageVC-->
+        <scene sceneID="CF7-BU-r7n">
+            <objects>
+                <viewController id="ajT-Fi-EPu" customClass="ViewFullImageVC" customModule="TwentyfourSeven" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xjX-un-sqV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="louding_img_2" translatesAutoresizingMaskIntoConstraints="NO" id="TGG-ZI-Nr4">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="close_ic" translatesAutoresizingMaskIntoConstraints="NO" id="VqN-g8-Ba4">
+                                <rect key="frame" x="10" y="30" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="RVQ-Ml-01o"/>
+                                    <constraint firstAttribute="height" constant="60" id="Sbd-dp-6zH"/>
+                                </constraints>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chat_send" translatesAutoresizingMaskIntoConstraints="NO" id="GXX-p0-HvI">
+                                <rect key="frame" x="295" y="557" width="60" height="60"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="2Ht-G6-kaa"/>
+                                    <constraint firstAttribute="width" constant="60" id="RTe-jT-BId"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gIJ-yz-861" appends="YES" id="pxz-2N-bkW"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TGG-ZI-Nr4" firstAttribute="trailing" secondItem="y5K-XT-4Ct" secondAttribute="trailing" id="254-EK-opx"/>
+                            <constraint firstItem="y5K-XT-4Ct" firstAttribute="trailing" secondItem="GXX-p0-HvI" secondAttribute="trailing" constant="20" id="7By-86-dZG"/>
+                            <constraint firstItem="y5K-XT-4Ct" firstAttribute="bottom" secondItem="TGG-ZI-Nr4" secondAttribute="bottom" id="87s-gK-kAL"/>
+                            <constraint firstItem="VqN-g8-Ba4" firstAttribute="top" secondItem="y5K-XT-4Ct" secondAttribute="top" constant="10" id="FQj-0g-Hyw"/>
+                            <constraint firstItem="VqN-g8-Ba4" firstAttribute="leading" secondItem="y5K-XT-4Ct" secondAttribute="leading" constant="10" id="H0E-IJ-60E"/>
+                            <constraint firstItem="TGG-ZI-Nr4" firstAttribute="leading" secondItem="y5K-XT-4Ct" secondAttribute="leading" id="Rg4-hH-U71"/>
+                            <constraint firstItem="y5K-XT-4Ct" firstAttribute="bottom" secondItem="GXX-p0-HvI" secondAttribute="bottom" constant="50" id="VJD-Mu-bdH"/>
+                            <constraint firstItem="TGG-ZI-Nr4" firstAttribute="top" secondItem="y5K-XT-4Ct" secondAttribute="top" id="fuf-tb-5jt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="y5K-XT-4Ct"/>
+                    </view>
+                    <connections>
+                        <outlet property="closeImg" destination="VqN-g8-Ba4" id="9SX-Gg-oPL"/>
+                        <outlet property="imageView" destination="TGG-ZI-Nr4" id="Xdc-ib-d3q"/>
+                        <outlet property="sendBtn" destination="GXX-p0-HvI" id="cyC-SV-gS3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DUd-po-O6L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="gIJ-yz-861">
+                    <connections>
+                        <action selector="sendMessage:" destination="ajT-Fi-EPu" id="GIQ-kI-Rwr"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="273" y="51"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chat_send" width="40" height="40"/>
+        <image name="close_ic" width="32" height="32"/>
+        <image name="louding_img_2" width="175" height="175"/>
+    </resources>
+</document>
